@@ -1,0 +1,118 @@
+{
+  "name": "🧚‍♀️𝗠𝗔𝗡𝗨-𝗠𝗗-𝗩❼💗",
+  "description": "Javascript WhatsApp bot made by Manul Official",
+  "logo": "https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "READ_CMD": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+    "AUTO_VOICE": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+    "AUTO_TYPING": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+    "ALWAYS_ONLINE": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+    "AUTO_RECORDING": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+        "BOT_NUMBER": {
+      "description": "Put your bot number.",
+      "required": false
+    },
+    
+        "ANTI_BAD": {
+      "description": "Put warn or kick or delete.",
+      "required": false
+    },
+    
+        "ANTI_BOT": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+        "ANTI_CALL": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+        "ANTI_PHOTO": {
+      "description": "Put warn or kick or delete.",
+      "required": false
+    },
+            "ANTI_STICKER": {
+      "description": "Put warn or kick or delete.",
+      "required": false
+    },
+            "ANTI_LINK": {
+      "description": "Put true or false.",
+      "required": false
+    },
+            "MOROCCO_BLOCK": {
+      "description": "Put true or false.",
+      "required": false
+    },
+            "OWNER_NUMBER": {
+      "description": "Put your owner number.",
+      "required": false
+    },
+    
+     "OWNER_NAME": {
+      "description": "Put your owner name.",
+      "required": false
+    },
+    
+    
+     "WARN_COUNT": {
+      "description": "Put 3 or any count.",
+      "required": false
+    },
+    
+      "AUTO_READ_STATUS": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+      "ANTI_DELETE": {
+      "description": "Put true or false.",
+      "required": false
+    },
+    
+      "DELETEMSGSENDTO": {
+      "description": "Put your number for forward delete messeges.",
+      "required": false
+    },
+    
+    "MODE": {
+      "description": "Put worktype public or private or groups.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
